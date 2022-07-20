@@ -1,5 +1,145 @@
 @media screen and (max-width: 767px) {
-   
+    h1{
+        font-size: 22px !important;
+        line-height: 33px !important;
+    }
+    h2{
+        font-size: 20px !important;
+        letter-spacing: 1px !important;
+        word-spacing: 2px !important;
+    }
+    h3{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    header, main{
+        margin: 10px !important;
+    }
+    .hero-left{
+        padding: 10px !important;
+        text-align: center !important;
+    }
+    .hero-right{
+        padding-right: 0 !important;
+    }
+    .hero-left p{
+        font-size: 14px !important;
+        margin-top: 10px !important;
+        padding-right: 0 !important;
+    }
+    .hero-section{
+        padding-top: 50px;
+        min-height: auto !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        border-radius: 10px !important;
+    }
+    .hero-left .call-to-action{
+        margin-top: 20px !important;
+    }
+    .hero-left .call-to-action a{
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+    .hero-right .hero-img{
+        margin-top: 30px !important;
+        justify-content: center;
+    }
+    .hero-right .hero-img img{
+        width: 60% !important;
+    }
+    .right-tab-content .blog-btn a {
+        padding: 3px 10px !important;
+        font-size: 14px !important;
+    }
+    /* ==| Hero Section End |== */
+
+    main{
+        padding: 50px 0  !important;
+    }
+    .tab-blogs, .upcoming-matches, .all-group{
+        grid-template-columns: repeat(1, 1fr) !important;
+        column-gap: 15px !important;
+        row-gap: 15px !important;
+    }
+    .tab-section{
+        grid-template-columns: 1fr !important;
+        row-gap: 20px !important;
+    }
+    .left-tab-nav{
+        height: inherit !important;
+        padding: 0 !important;
+        background-color: #fff !important;
+    }
+    .left-tab-nav ul{
+        padding: 0 50px !important;
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        column-gap: 10px !important;
+        row-gap: 10px !important;
+    }
+    .left-tab-nav ul li{
+        list-style: none !important;
+    }
+    .left-tab-nav ul li a{
+        padding: 7px 15px !important;
+        font-size: 14px !important;
+        line-height: 24px !important;
+        border: 1px solid #E8E8E8 !important;
+    }  
+    .left-tab-nav {
+        height: inherit !important;
+    }
+    .blog-watch-comment{
+        margin-top: 10px !important;
+    }
+    .blog-watch-comment .publish-hr span, .comment span{
+        font-size: 16px !important;
+    }
+    /* All Blog End */
+    .footer-navigation ul{
+        display: block !important;
+    }
+    .footer-navigation ul li{
+        margin-bottom: 10px !important;
+    }
+    .footer-social {
+        margin-top: 20px !important;
+    }
+    .footer-social ul li a i{
+        width: 20px !important;
+        height: 20px !important;
+        padding: 7px !important;
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    footer{
+        padding: 50px 0 !important;
+    }
+    hr.hr-border{
+        margin: 20px 0 !important;
+    }
+    .footer-navigation ul, .footer-social ul {
+        column-gap: 20px !important;
+    }
+    /* Footer CSS End */
+
+    .group {
+        padding: 20px 15px !important;
+        row-gap: 5px !important;
+    }
+    .all-group .group-name h2 {
+        font-size: 20px !important;
+    }
+    .all-group .country{
+        column-gap: 0 !important;
+    }
+    .all-group .country .country-name h3{
+        margin-top: 0 !important;
+        font-size: 14px !important;
+    }
+    .all-group .country-flag img{
+        width: 60px !important;
+    }
 }
 @media screen and (min-width:768px) and (max-width:992px) {
     h1{
@@ -76,6 +216,12 @@
     .blog-watch-comment .publish-hr span, .comment span{
         font-size: 16px !important;
     }
+    .tab-blogs .blog:nth-child(7), .blog:nth-child(8), .blog:nth-child(9){
+        display: none !important;
+    }
+    .view-all-btn{
+        display: block !important;
+    }
     /* All Blog End */
 
     .footer-social ul li a i{
@@ -94,4 +240,17 @@
     .footer-navigation ul, .footer-social ul {
         column-gap: 20px !important;
     }
+    /* Footer CSS End */
+    .group {
+        padding: 20px 15px !important;
+        row-gap: 8px !important;
+    }
+    .all-group .group-name h2 {
+        font-size: 20px !important;
+    }
+    .all-group .country .country-name h3{
+        font-size: 16px !important;
+    }
+
+
 }

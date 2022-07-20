@@ -82,7 +82,7 @@ header, main, footer{
 .hero-left .call-to-action{
     margin-top: 40px;
 }       
-.hero-left .call-to-action a{
+.hero-left .call-to-action a button{
     background-image: linear-gradient(to right, #f28845 0%, #ce6c17  51%, #a74a02  100%);
     padding: 15px 45px;
     font-weight: 600;
@@ -91,9 +91,11 @@ header, main, footer{
     color: white;            
     box-shadow: 0 0 20px rgb(0, 0, 0);
     border-radius: 10px;
+    cursor: pointer;
 }
-.hero-left .call-to-action a:hover{
+.hero-left .call-to-action a button:hover{
     background-image: linear-gradient(to right, #d27409 0%, #b85a09  51%, #ad450d  100%);
+    transform:scale(1.1);
 }
 .hero-left .call-to-action a span{
     margin-left: 7px;
@@ -111,7 +113,21 @@ header, main, footer{
 .hero-right .hero-img{
     display: flex;
 }
-
+.view-all-btn{
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+}
+.view-all-btn .call-to-action a{
+    background-image: linear-gradient(to right, #f28845 0%, #ce6c17  51%, #a74a02  100%);
+    padding: 15px 45px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.5s;
+    color: white;            
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 10px;
+}
 /*==| Header CSS End Here|==*/
 
 /*==| Tab CSS Start Here|==*/
@@ -163,10 +179,23 @@ main{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     overflow: hidden;
-    transition: .3s;
+    cursor: pointer;
+}
+.group{
+    cursor: inherit;
 }
 .blog:hover{
     background-color: #f8f8f8;
+}
+.blog-img{
+    overflow: hidden;
+    max-height: 180px;
+}
+.blog .blog-img img{
+    transition: .5s;
+}
+.blog:hover .blog-img img{
+    transform: scale(1.2) rotate(5deg);
 }
 .blog-content{
     padding: 15px;
@@ -287,7 +316,7 @@ All Group Page CSS Start
 .all-group .group{
     display: flex;
     flex-direction: column;
-    row-gap: 8px;
+    row-gap: 10px;
 }
 .all-group .group-name h2{
     letter-spacing: 0;
@@ -311,6 +340,10 @@ All Group Page CSS Start
     margin-top: -3px;
     font-size: 1.3em;
     line-height: 0;
+}
+.all-group .country-flag{
+    display: flex;
+    align-items: center;
 }
 .all-group .country-flag img{
     width: 70px;
