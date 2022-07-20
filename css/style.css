@@ -28,7 +28,7 @@ h1{
 }
 h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 600;
     font-style: italic;
     letter-spacing: 3px;
@@ -146,14 +146,20 @@ main{
     font-size: 20px;
     line-height: 30px;
 }
+.left-tab-nav ul li a:active, .left-tab-nav ul li a:hover{
+    background-image: linear-gradient(to right, #d27409 0%, #b85a09  51%, #ad450d  100%);
+    background-color: red;
+    color: #fff;
+}
 
-.tab-blogs{
+
+.tab-blogs, .upcoming-matches{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     row-gap: 20px;
 }
-.blog{
+.blog, .match{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     overflow: hidden;
@@ -215,15 +221,15 @@ hr{
     margin-top: 40px;
 }
 .footer-social ul li a i{
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     padding: 10px;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: center;
-    background-color: #161616;
-    color: #fff;
-    border: 3px solid #fff;
+    background-color: #E8E8E8;
+    color: #161616;
+ 
     border-radius: 100%;
     transition: .3s;
 }
@@ -232,4 +238,41 @@ hr{
     color: #161616;
 }
 /*==| Footer CSS End Here |==*/
+
+/* ----------------------------
+Upcomming Match Page CSS Start 
+------------------------------ */
+.match{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    align-items: center;
+    padding: 30px 20px;
+}
+.match .match-flag{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    align-items: center;
+}
+.match .match-flag span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.match .match-flag, .match-info{
+    text-align: center;
+}
+.match .match-flag img{
+    width: 38%;
+}
+.match .match-flag, .match-info .match-time{
+    margin-top: 10px;
+}
+
+/* ----------------------------
+Upcomming Match Page CSS End 
+------------------------------ */
+
 
