@@ -109,9 +109,15 @@ header, main, footer{
     padding-right: 100px;
     display: grid;
     align-items: flex-end;
+    overflow: hidden;
 }
 .hero-right .hero-img{
     display: flex;
+    overflow: hidden;
+    transition: 1s;
+}
+.hero-right:hover .hero-img{
+    transform: scale(1.07)translate(-5px);
 }
 .view-all-btn{
     display: none;
@@ -189,13 +195,12 @@ main{
 }
 .blog-img{
     overflow: hidden;
-    max-height: 180px;
 }
 .blog .blog-img img{
     transition: .5s;
 }
 .blog:hover .blog-img img{
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(0.9);
 }
 .blog-content{
     padding: 15px;
