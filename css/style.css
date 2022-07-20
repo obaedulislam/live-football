@@ -27,6 +27,15 @@ h1{
     color: #fff;
 }
 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #fff;
+}
+h3{
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -45,8 +54,8 @@ a{
 
 
 /*==| Header CSS Start Here|==*/
-header, main{
-    margin: 50px;
+header, main, footer{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -107,7 +116,7 @@ header, main{
 
 /*==| Tab CSS Start Here|==*/
 main{
-    padding: 50px 0;
+    padding: 50px 0 100px;
 }
 .tab-section{
     display: grid;
@@ -148,6 +157,10 @@ main{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     overflow: hidden;
+    transition: .3s;
+}
+.blog:hover{
+    background-color: #f8f8f8;
 }
 .blog-content{
     padding: 15px;
@@ -176,4 +189,47 @@ main{
 
 }
 /*==| Tab CSS End Here|==*/
+
+
+/*==| Footer CSS Start Here |==*/
+footer{
+    margin-top: 0;
+    padding: 100px 0;
+    background-color: #000025;
+    text-align: center;
+}
+hr{
+    margin: 50px 0;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+.footer-navigation ul, .footer-social ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.footer-navigation ul li a{
+    font-weight: 500;
+    color: #B9B9B9
+}
+.footer-social {
+    margin-top: 40px;
+}
+.footer-social ul li a i{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    background-color: #161616;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    transition: .3s;
+}
+.footer-social ul li a i:hover{
+    background-color: #B9B9B9;
+    color: #161616;
+}
+/*==| Footer CSS End Here |==*/
 
