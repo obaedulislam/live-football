@@ -77,7 +77,7 @@ header, main, footer{
     font-size: 18px;
     line-height: 28px;
     word-spacing: 2px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
 }
 .hero-left .call-to-action{
     margin-top: 40px;
@@ -213,12 +213,18 @@ hr.hr-border{
     justify-content: center;
     column-gap: 50px;
 }
+.footer-social {
+    margin-top: 40px;
+}
+.footer-social ul{
+    column-gap: 30px;
+}
+.footer-social ul li{
+    list-style: none;
+}
 .footer-navigation ul li a{
     font-weight: 500;
     color: #B9B9B9
-}
-.footer-social {
-    margin-top: 40px;
 }
 .footer-social ul li a i{
     width: 28px;
@@ -229,7 +235,6 @@ hr.hr-border{
     text-align: center;
     background-color: #E8E8E8;
     color: #161616;
- 
     border-radius: 100%;
     transition: .3s;
 }

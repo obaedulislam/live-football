@@ -1,0 +1,97 @@
+@media screen and (max-width: 767px) {
+   
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    h1{
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+    h2{
+        font-size: 24px !important;
+    }
+    h3{
+        font-size: 18px !important;
+    }
+    header, main{
+        margin: 20px !important;
+    }
+    .hero-left{
+        padding-left: 30px !important;
+    }
+    .hero-right{
+        padding-right: 30px !important;
+    }
+    .hero-left p{
+        font-size: 16px !important;
+        margin-top: 10px !important;
+        padding-right: 0 !important;
+    }
+    .hero-section{
+        min-height: 450px !important;
+    }
+    .hero-left .call-to-action{
+        margin-top: 20px !important;
+    }
+    .hero-left .call-to-action a{
+        padding: 12px 30px !important;
+    }
+    /* ==| Hero Section End |== */
+
+    main{
+        padding: 50px 0  !important;
+    }
+    .tab-blogs, .upcoming-matches, .all-group{
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 15px !important;
+        row-gap: 15px !important;
+    }
+    .tab-section{
+        grid-template-columns: 1fr !important;
+        row-gap: 20px !important;
+    }
+    .left-tab-nav{
+        padding: 0 !important;
+        background-color: #fff !important;
+    }
+    .left-tab-nav ul{
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        column-gap: 20px;
+    }
+    .left-tab-nav ul li{
+        list-style: none !important;
+    }
+    .left-tab-nav ul li a{
+        padding: 10px 20px !important;
+        font-size: 18px !important;
+        line-height: 26px !important;
+        border: 1px solid #E8E8E8 !important;
+    }  
+    .left-tab-nav {
+        height: inherit !important;
+    }
+    .blog-watch-comment{
+        margin-top: 10px !important;
+    }
+    .blog-watch-comment .publish-hr span, .comment span{
+        font-size: 16px !important;
+    }
+    /* All Blog End */
+
+    .footer-social ul li a i{
+        width: 24px !important;
+        height: 24px !important;
+        padding: 7px !important;
+        font-size: 18px !important;
+        line-height: 26px !important;
+    }
+    footer{
+        padding: 50px 0 !important;
+    }
+    hr.hr-border{
+        margin: 20px 0 !important;
+    }
+    .footer-navigation ul, .footer-social ul {
+        column-gap: 20px !important;
+    }
+}
