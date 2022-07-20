@@ -89,8 +89,8 @@ header, main, footer{
     text-align: center;
     transition: 0.5s;
     color: white;            
-    box-shadow: 0 0 20px rgb(0, 0, 0);
     border-radius: 10px;
+    border: 2px solid #d27409;
     cursor: pointer;
 }
 .hero-left .call-to-action a button:hover{
